@@ -5,4 +5,6 @@ app = Flask(__name__)
 def cronjob_func():
 	#Insert cron job code here
 	return;
+if __name__ == '__main__':
+   app.run()
 	

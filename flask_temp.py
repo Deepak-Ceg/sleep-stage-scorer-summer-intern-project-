@@ -6,4 +6,5 @@ def cronjob_func():
     print(request.form['name'])
     return 'Hello '+request.form['name']
 if __name__ == '__main__':
+   app.debug=True
    app.run()

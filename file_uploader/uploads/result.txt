@@ -1,0 +1,29 @@
+C:
+{"status":1,"output":null,"stderr":null,"cmpinfo":null}
+-----------------------------------------------------------------------
+C++:
+{"status":0,"output":"Positive\n","stderr":false,"cmpinfo":""}
+-----------------------------------------------------------------------
+Python:
+{"status":0,"output":"Odd\n","stderr":false,"cmpinfo":""}
+-----------------------------------------------------------------------Java:
+SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Response payload	
+1
+)]}'
+2
+
+3
+{"id":"ANyPxKpQUg_AjgeMGkjtvNXa0wzKmQuxja9xfDtHzOKGUMvYpE0wFVhDbqgUZISq2Z1s43d7Hr3hNMCx4AUzS_nBP6pvvVMk9g"}
+-----------------------------------------------------------------------
+Javascript:
+{"status":1,"output":"","stderr":"solution.js:1\n(function (exports, require, module, __filename, __dirname) { var a=Number(prompt())\n                                                                    ^\n\nReferenceError: prompt is not defined\n    at Object.<anonymous> (solution.js:1:69)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.r","cmpinfo":""}
+-----------------------------------------------------------------------
+Lisp:
+{"status":1,"output":null,"stderr":null,"cmpinfo":null}
+-----------------------------------------------------------------------
+c#:
+{"status":1,"output":null,"stderr":null,"cmpinfo":"solution.cs(39,32): error CS1525: Unexpected symbol `i'\nsolution.cs(43,41): error CS1525: Unexpected symbol `sum'\nCompilation failed: 2 error(s), 0 warnings\n"}
+-----------------------------------------------------------------------
+PHP:
+{"status":0,"output":"1","stderr":false,"cmpinfo":"No syntax errors detected in solution.php\n"}
